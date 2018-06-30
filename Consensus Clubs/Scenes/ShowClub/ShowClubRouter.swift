@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ShowProductRouter {
+struct ShowClubRouter {
     weak var viewController: UIViewController?
     
     init(viewController: UIViewController?) {
@@ -16,6 +16,6 @@ struct ShowProductRouter {
     }
 }
 
-extension ShowProductRouter: ShowClubRoutable {
+extension ShowClubRouter: ShowClubRoutable {
     
 }

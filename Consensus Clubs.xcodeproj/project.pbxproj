@@ -12,7 +12,7 @@
 		8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */; };
 		8B5DB4E92087E15D005B8994 /* ShowProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E82087E15D005B8994 /* ShowProfileViewController.swift */; };
 		8B5DB4EB2087E170005B8994 /* ListClubs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EA2087E170005B8994 /* ListClubs.storyboard */; };
-		8B5DB4ED2087E17B005B8994 /* ShowProduct.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EC2087E17B005B8994 /* ShowProduct.storyboard */; };
+		8B5DB4ED2087E17B005B8994 /* ShowClub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */; };
 		8B5DB4EF2087E186005B8994 /* ShowProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EE2087E186005B8994 /* ShowProfile.storyboard */; };
 		8B5DB4F72087E1E7005B8994 /* ListProductsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F62087E1E7005B8994 /* ListProductsInterfaces.swift */; };
 		8B5DB4F92087E1FD005B8994 /* ListClubsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F82087E1FD005B8994 /* ListClubsModels.swift */; };
@@ -21,13 +21,13 @@
 		8B5DB4FF2087E22F005B8994 /* ShowProfileInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FE2087E22F005B8994 /* ShowProfileInterfaces.swift */; };
 		8B5DB5012087E271005B8994 /* ShowProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5002087E271005B8994 /* ShowProfileModels.swift */; };
 		8B5DB5032087E29D005B8994 /* ListClubsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5022087E29D005B8994 /* ListClubsInteractor.swift */; };
-		8B5DB5052087E2B4005B8994 /* ShowProductInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5042087E2B4005B8994 /* ShowProductInteractor.swift */; };
+		8B5DB5052087E2B4005B8994 /* ShowClubInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */; };
 		8B5DB5072087E2C2005B8994 /* ShowProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5062087E2C2005B8994 /* ShowProfileInteractor.swift */; };
 		8B5DB5092087E2D3005B8994 /* ListClubsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */; };
-		8B5DB50B2087E2DF005B8994 /* ShowProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50A2087E2DF005B8994 /* ShowProductPresenter.swift */; };
+		8B5DB50B2087E2DF005B8994 /* ShowClubPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */; };
 		8B5DB50D2087E2EA005B8994 /* ShowProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50C2087E2EA005B8994 /* ShowProfilePresenter.swift */; };
 		8B5DB50F2087E2FA005B8994 /* ListClubsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */; };
-		8B5DB5112087E303005B8994 /* ShowProductRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5102087E303005B8994 /* ShowProductRouter.swift */; };
+		8B5DB5112087E303005B8994 /* ShowClubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5102087E303005B8994 /* ShowClubRouter.swift */; };
 		8B5DB5132087E310005B8994 /* ShowProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5122087E310005B8994 /* ShowProfileRouter.swift */; };
 		8B5DB5222087E381005B8994 /* CompanyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5DB5192087E381005B8994 /* CompanyCore.framework */; };
 		8B5DB5292087E381005B8994 /* Company_Core_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5282087E381005B8994 /* Company_Core_iOSTests.swift */; };
@@ -111,7 +111,7 @@
 		8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E82087E15D005B8994 /* ShowProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileViewController.swift; sourceTree = "<group>"; };
 		8B5DB4EA2087E170005B8994 /* ListClubs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListClubs.storyboard; sourceTree = "<group>"; };
-		8B5DB4EC2087E17B005B8994 /* ShowProduct.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowProduct.storyboard; sourceTree = "<group>"; };
+		8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowClub.storyboard; sourceTree = "<group>"; };
 		8B5DB4EE2087E186005B8994 /* ShowProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowProfile.storyboard; sourceTree = "<group>"; };
 		8B5DB4F62087E1E7005B8994 /* ListProductsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductsInterfaces.swift; sourceTree = "<group>"; };
 		8B5DB4F82087E1FD005B8994 /* ListClubsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsModels.swift; sourceTree = "<group>"; };
@@ -120,13 +120,13 @@
 		8B5DB4FE2087E22F005B8994 /* ShowProfileInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileInterfaces.swift; sourceTree = "<group>"; };
 		8B5DB5002087E271005B8994 /* ShowProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileModels.swift; sourceTree = "<group>"; };
 		8B5DB5022087E29D005B8994 /* ListClubsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsInteractor.swift; sourceTree = "<group>"; };
-		8B5DB5042087E2B4005B8994 /* ShowProductInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductInteractor.swift; sourceTree = "<group>"; };
+		8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubInteractor.swift; sourceTree = "<group>"; };
 		8B5DB5062087E2C2005B8994 /* ShowProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileInteractor.swift; sourceTree = "<group>"; };
 		8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsPresenter.swift; sourceTree = "<group>"; };
-		8B5DB50A2087E2DF005B8994 /* ShowProductPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductPresenter.swift; sourceTree = "<group>"; };
+		8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubPresenter.swift; sourceTree = "<group>"; };
 		8B5DB50C2087E2EA005B8994 /* ShowProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfilePresenter.swift; sourceTree = "<group>"; };
 		8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsRouter.swift; sourceTree = "<group>"; };
-		8B5DB5102087E303005B8994 /* ShowProductRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductRouter.swift; sourceTree = "<group>"; };
+		8B5DB5102087E303005B8994 /* ShowClubRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubRouter.swift; sourceTree = "<group>"; };
 		8B5DB5122087E310005B8994 /* ShowProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileRouter.swift; sourceTree = "<group>"; };
 		8B5DB5192087E381005B8994 /* CompanyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompanyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5DB51B2087E381005B8994 /* Company_Core_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company_Core_iOS.h; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 				8BAA0C2C2087884E005A7ED8 /* LaunchScreen.storyboard */,
 				8B5DB4DE2087E063005B8994 /* Main */,
 				8B5DB4DF2087E0C9005B8994 /* ListProducts */,
-				8B5DB4E02087E0D8005B8994 /* ShowProduct */,
+				8B5DB4E02087E0D8005B8994 /* ShowClub */,
 				8B5DB4E12087E108005B8994 /* ShowProfile */,
 			);
 			path = Scenes;
@@ -233,17 +233,17 @@
 			path = ListProducts;
 			sourceTree = "<group>";
 		};
-		8B5DB4E02087E0D8005B8994 /* ShowProduct */ = {
+		8B5DB4E02087E0D8005B8994 /* ShowClub */ = {
 			isa = PBXGroup;
 			children = (
 				8B5DB4F22087E1B6005B8994 /* Common */,
-				8B5DB4EC2087E17B005B8994 /* ShowProduct.storyboard */,
+				8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */,
 				8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */,
-				8B5DB5042087E2B4005B8994 /* ShowProductInteractor.swift */,
-				8B5DB50A2087E2DF005B8994 /* ShowProductPresenter.swift */,
-				8B5DB5102087E303005B8994 /* ShowProductRouter.swift */,
+				8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */,
+				8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */,
+				8B5DB5102087E303005B8994 /* ShowClubRouter.swift */,
 			);
-			path = ShowProduct;
+			path = ShowClub;
 			sourceTree = "<group>";
 		};
 		8B5DB4E12087E108005B8994 /* ShowProfile */ = {
@@ -639,7 +639,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5DB4ED2087E17B005B8994 /* ShowProduct.storyboard in Resources */,
+				8B5DB4ED2087E17B005B8994 /* ShowClub.storyboard in Resources */,
 				8B5DB4EF2087E186005B8994 /* ShowProfile.storyboard in Resources */,
 				8BAA0C2E2087884E005A7ED8 /* LaunchScreen.storyboard in Resources */,
 				8BAA0C2B2087884E005A7ED8 /* Assets.xcassets in Resources */,
@@ -696,11 +696,11 @@
 				8B5DB5032087E29D005B8994 /* ListClubsInteractor.swift in Sources */,
 				8B5DB50D2087E2EA005B8994 /* ShowProfilePresenter.swift in Sources */,
 				8B5DB54E2087F102005B8994 /* AppModels.swift in Sources */,
-				8B5DB5052087E2B4005B8994 /* ShowProductInteractor.swift in Sources */,
+				8B5DB5052087E2B4005B8994 /* ShowClubInteractor.swift in Sources */,
 				8B5DB55B2088F930005B8994 /* ListClubsTableViewCell.swift in Sources */,
 				8B5DB593208A4CB6005B8994 /* AppRoutable.swift in Sources */,
 				8B5DB5012087E271005B8994 /* ShowProfileModels.swift in Sources */,
-				8B5DB50B2087E2DF005B8994 /* ShowProductPresenter.swift in Sources */,
+				8B5DB50B2087E2DF005B8994 /* ShowClubPresenter.swift in Sources */,
 				8BAA0C242087884C005A7ED8 /* AppDelegate.swift in Sources */,
 				8B5DB4FB2087E20F005B8994 /* ShowProductInterfaces.swift in Sources */,
 				8B5DB50F2087E2FA005B8994 /* ListClubsRouter.swift in Sources */,
@@ -710,7 +710,7 @@
 				8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */,
 				8B5DB4FF2087E22F005B8994 /* ShowProfileInterfaces.swift in Sources */,
 				8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */,
-				8B5DB5112087E303005B8994 /* ShowProductRouter.swift in Sources */,
+				8B5DB5112087E303005B8994 /* ShowClubRouter.swift in Sources */,
 				8B5DB4E92087E15D005B8994 /* ShowProfileViewController.swift in Sources */,
 				8B5DB5072087E2C2005B8994 /* ShowProfileInteractor.swift in Sources */,
 				8B5DB4F72087E1E7005B8994 /* ListProductsInterfaces.swift in Sources */,

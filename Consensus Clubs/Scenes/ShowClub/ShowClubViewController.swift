@@ -18,12 +18,12 @@ class ShowClubViewController: UIViewController {
     
     // MARK: - VIP variables
     
-    private lazy var interactor: ShowClubBusinessLogic = ShowProductInteractor(
-        presenter: ShowProductPresenter(viewController: self),
+    private lazy var interactor: ShowClubBusinessLogic = ShowClubInteractor(
+        presenter: ShowClubPresenter(viewController: self),
         clubsWorker: ClubsWorker(store: ClubsMemoryStore())
     )
     
-    private lazy var router: ShowClubRoutable = ShowProductRouter(
+    private lazy var router: ShowClubRoutable = ShowClubRouter(
         viewController: self
     )
     

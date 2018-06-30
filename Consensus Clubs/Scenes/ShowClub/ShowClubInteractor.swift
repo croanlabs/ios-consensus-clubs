@@ -8,7 +8,7 @@
 
 import CompanyCore
 
-struct ShowProductInteractor {
+struct ShowClubInteractor {
     private let presenter: ShowClubPresentable
     private let clubsWorker: ClubsWorkerType
     
@@ -18,7 +18,7 @@ struct ShowProductInteractor {
     }
 }
 
-extension ShowProductInteractor: ShowClubBusinessLogic {
+extension ShowClubInteractor: ShowClubBusinessLogic {
     
     func fetchProduct(with request: ShowProductModels.FetchRequest) {
         clubsWorker.fetch(id: request.id) {

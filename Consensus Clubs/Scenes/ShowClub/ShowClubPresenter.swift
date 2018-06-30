@@ -9,7 +9,7 @@
 import UIKit
 import CompanyCore
 
-struct ShowProductPresenter: ShowClubPresentable {
+struct ShowClubPresenter: ShowClubPresentable {
     private weak var viewController: ShowClubDisplayable?
     private let currencyFormatter: NumberFormatter
     
@@ -21,7 +21,7 @@ struct ShowProductPresenter: ShowClubPresentable {
     }
 }
 
-extension ShowProductPresenter {
+extension ShowClubPresenter {
     
     func presentFetchedProduct(for response: ShowProductModels.Response) {
         let viewModel = ShowProductModels.ViewModel(
