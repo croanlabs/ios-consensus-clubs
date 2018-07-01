@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hLX-Vl-4Pf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="faV-zz-YMQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="0tf-yi-5IX">
+            <objects>
+                <navigationController id="faV-zz-YMQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mda-3N-aek">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tae-Sx-qA1" kind="relationship" relationship="rootViewController" id="dFw-As-cXT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ub7-63-GZ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1794" y="84"/>
+        </scene>
+        <!--Consensus Clubs-->
         <scene sceneID="qUi-EU-DdR">
             <objects>
-                <tabBarController id="hLX-Vl-4Pf" customClass="MainViewController" customModule="Consensus_Clubs" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainViewController" title="Consensus Clubs" id="hLX-Vl-4Pf" customClass="MainViewController" customModule="Consensus_Clubs" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q3c-FB-Hza">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -47,5 +64,43 @@
             </objects>
             <point key="canvasLocation" x="770" y="201"/>
         </scene>
+        <!--Consensus Clubs-->
+        <scene sceneID="umV-ME-RbM">
+            <objects>
+                <viewController id="tae-Sx-qA1" customClass="AuthViewController" customModule="Consensus_Clubs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NRH-Zt-xcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xz8-Ha-9gm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mje-hQ-m9A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38N-E3-GdK">
+                                <rect key="frame" x="-31" y="209" width="382" height="62"/>
+                                <state key="normal" image="ButtonTwitterNormal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTouchUpInsideLoginButton:" destination="tae-Sx-qA1" eventType="touchUpInside" id="4PR-Xl-SZm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="38N-E3-GdK" firstAttribute="centerX" secondItem="mje-hQ-m9A" secondAttribute="centerX" id="Xkv-m5-4Qd"/>
+                            <constraint firstItem="38N-E3-GdK" firstAttribute="centerY" secondItem="mje-hQ-m9A" secondAttribute="centerY" id="wrM-DM-qiv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xqv-UL-Y5d"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Consensus Clubs" id="bYD-PA-VRm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4B-Yx-5rx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-879" y="83"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="ButtonTwitterNormal" width="290" height="62"/>
+    </resources>
 </document>

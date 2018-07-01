@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283A566020E8602100B351E0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A565F20E8602100B351E0 /* AuthViewController.swift */; };
+		28D2D9B220E863810063DFD7 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2D9AB20E863740063DFD7 /* SwifteriOS.framework */; };
+		28D2D9B320E863810063DFD7 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2D9AB20E863740063DFD7 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E22087E12D005B8994 /* MainViewController.swift */; };
 		8B5DB4E52087E13E005B8994 /* ListClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */; };
 		8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */; };
@@ -61,6 +64,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		28D2D9A820E863740063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		28D2D9AA20E863740063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		28D2D9AC20E863740063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		28D2D9AE20E863740063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		28D2D9B020E863740063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		28D2D9B420E863810063DFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 		8B5DB5232087E381005B8994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BAA0C182087884C005A7ED8 /* Project object */;
@@ -99,6 +144,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8B5DB52F2087E381005B8994 /* CompanyCore.framework in Embed Frameworks */,
+				28D2D9B320E863810063DFD7 /* SwifteriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +152,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		283A565F20E8602100B351E0 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../appdev/ios/Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		8B5DB4E22087E12D005B8994 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5DB52E2087E381005B8994 /* CompanyCore.framework in Frameworks */,
+				28D2D9B220E863810063DFD7 /* SwifteriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,12 +247,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283A565E20E8600A00B351E0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				283A565F20E8602100B351E0 /* AuthViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		28D2D9A120E863730063DFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28D2D9A920E863740063DFD7 /* SwifterDemoiOS.app */,
+				28D2D9AB20E863740063DFD7 /* SwifteriOS.framework */,
+				28D2D9AD20E863740063DFD7 /* SwifterMac.framework */,
+				28D2D9AF20E863740063DFD7 /* SwifterDemoMac.app */,
+				28D2D9B120E863740063DFD7 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8B5DB4DD2087E043005B8994 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				283A565E20E8600A00B351E0 /* Login */,
 				8BAA0C2C2087884E005A7ED8 /* LaunchScreen.storyboard */,
 				8B5DB4DE2087E063005B8994 /* Main */,
-				8B5DB4DF2087E0C9005B8994 /* ListProducts */,
+				8B5DB4DF2087E0C9005B8994 /* ListClubs */,
 				8B5DB4E02087E0D8005B8994 /* ShowClub */,
 				8B5DB4E12087E108005B8994 /* ShowProfile */,
 			);
@@ -219,7 +289,7 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		8B5DB4DF2087E0C9005B8994 /* ListProducts */ = {
+		8B5DB4DF2087E0C9005B8994 /* ListClubs */ = {
 			isa = PBXGroup;
 			children = (
 				8B5DB4F12087E1B3005B8994 /* Common */,
@@ -230,7 +300,7 @@
 				8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */,
 				8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */,
 			);
-			path = ListProducts;
+			path = ListClubs;
 			sourceTree = "<group>";
 		};
 		8B5DB4E02087E0D8005B8994 /* ShowClub */ = {
@@ -444,6 +514,7 @@
 		8BAA0C172087884C005A7ED8 = {
 			isa = PBXGroup;
 			children = (
+				28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */,
 				8BAA0C222087884C005A7ED8 /* Consensus Clubs */,
 				8BAA0C372087884E005A7ED8 /* Consensus ClubsTests */,
 				8B5DB51A2087E381005B8994 /* Company Core iOS */,
@@ -548,6 +619,7 @@
 			);
 			dependencies = (
 				8B5DB52D2087E381005B8994 /* PBXTargetDependency */,
+				28D2D9B520E863810063DFD7 /* PBXTargetDependency */,
 			);
 			name = "Consensus Clubs";
 			productName = "Swift Clean Architecture";
@@ -610,6 +682,12 @@
 			mainGroup = 8BAA0C172087884C005A7ED8;
 			productRefGroup = 8BAA0C212087884C005A7ED8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 28D2D9A120E863730063DFD7 /* Products */;
+					ProjectRef = 28D2D9A020E863730063DFD7 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8BAA0C1F2087884C005A7ED8 /* Consensus Clubs */,
@@ -619,6 +697,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		28D2D9A920E863740063DFD7 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 28D2D9A820E863740063DFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28D2D9AB20E863740063DFD7 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 28D2D9AA20E863740063DFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28D2D9AD20E863740063DFD7 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 28D2D9AC20E863740063DFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28D2D9AF20E863740063DFD7 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 28D2D9AE20E863740063DFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28D2D9B120E863740063DFD7 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 28D2D9B020E863740063DFD7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B5DB5172087E381005B8994 /* Resources */ = {
@@ -709,6 +825,7 @@
 				8B5DB4E52087E13E005B8994 /* ListClubsViewController.swift in Sources */,
 				8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */,
 				8B5DB4FF2087E22F005B8994 /* ShowProfileInterfaces.swift in Sources */,
+				283A566020E8602100B351E0 /* AuthViewController.swift in Sources */,
 				8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */,
 				8B5DB5112087E303005B8994 /* ShowClubRouter.swift in Sources */,
 				8B5DB4E92087E15D005B8994 /* ShowProfileViewController.swift in Sources */,
@@ -730,6 +847,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		28D2D9B520E863810063DFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 28D2D9B420E863810063DFD7 /* PBXContainerItemProxy */;
+		};
 		8B5DB5242087E381005B8994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8B5DB5182087E381005B8994 /* Company Core iOS */;
