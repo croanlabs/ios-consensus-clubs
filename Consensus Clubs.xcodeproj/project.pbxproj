@@ -10,6 +10,7 @@
 		283A566020E8602100B351E0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A565F20E8602100B351E0 /* AuthViewController.swift */; };
 		28B7009020E92A9C0046B350 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7008F20E92A9C0046B350 /* SwifteriOS.framework */; };
 		28B7009120E92A9C0046B350 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7008F20E92A9C0046B350 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28CBB03120F843AA005FD459 /* Consensus_ClubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839660520F840740047CD4F /* Consensus_ClubsTests.swift */; };
 		8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E22087E12D005B8994 /* MainViewController.swift */; };
 		8B5DB4E52087E13E005B8994 /* ListClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */; };
 		8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */; };
@@ -60,7 +61,6 @@
 		8BAA0C292087884C005A7ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA0C272087884C005A7ED8 /* Main.storyboard */; };
 		8BAA0C2B2087884E005A7ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA0C2A2087884E005A7ED8 /* Assets.xcassets */; };
 		8BAA0C2E2087884E005A7ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA0C2C2087884E005A7ED8 /* LaunchScreen.storyboard */; };
-		8BAA0C392087884E005A7ED8 /* Swift_Clean_ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA0C382087884E005A7ED8 /* Swift_Clean_ArchitectureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +110,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2839660520F840740047CD4F /* Consensus_ClubsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consensus_ClubsTests.swift; sourceTree = "<group>"; };
 		283A565F20E8602100B351E0 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		28B7008F20E92A9C0046B350 /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = "External Frameworks/SwifteriOS.framework"; sourceTree = "<group>"; };
 		8B5DB4E22087E12D005B8994 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -166,7 +167,6 @@
 		8BAA0C2D2087884E005A7ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BAA0C2F2087884E005A7ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BAA0C342087884E005A7ED8 /* Consensus ClubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Consensus ClubsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BAA0C382087884E005A7ED8 /* Swift_Clean_ArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Clean_ArchitectureTests.swift; sourceTree = "<group>"; };
 		8BAA0C3A2087884E005A7ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -495,7 +495,7 @@
 		8BAA0C372087884E005A7ED8 /* Consensus ClubsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BAA0C382087884E005A7ED8 /* Swift_Clean_ArchitectureTests.swift */,
+				2839660520F840740047CD4F /* Consensus_ClubsTests.swift */,
 				8BAA0C3A2087884E005A7ED8 /* Info.plist */,
 			);
 			path = "Consensus ClubsTests";
@@ -601,17 +601,20 @@
 				TargetAttributes = {
 					8B5DB5182087E381005B8994 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1000;
 					};
 					8B5DB5202087E381005B8994 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 8BAA0C1F2087884C005A7ED8;
 					};
 					8BAA0C1F2087884C005A7ED8 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 					8BAA0C332087884E005A7ED8 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 						TestTargetID = 8BAA0C1F2087884C005A7ED8;
 					};
 				};
@@ -741,7 +744,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BAA0C392087884E005A7ED8 /* Swift_Clean_ArchitectureTests.swift in Sources */,
+				28CBB03120F843AA005FD459 /* Consensus_ClubsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -794,10 +797,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -808,11 +812,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Company-Core-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brilliantage.apps.Company-Core-iOS";
 				PRODUCT_NAME = CompanyCore;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -827,6 +831,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -837,10 +842,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Company-Core-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brilliantage.apps.Company-Core-iOS";
 				PRODUCT_NAME = CompanyCore;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -852,15 +857,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				INFOPLIST_FILE = "Company Core iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Company-Core-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brilliantage.apps.Company-Core-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consensus Clubs.app/Consensus Clubs";
 			};
@@ -871,15 +877,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				INFOPLIST_FILE = "Company Core iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Company-Core-iOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brilliantage.apps.Company-Core-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consensus Clubs.app/Consensus Clubs";
 			};
@@ -1017,7 +1024,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brilliantage.apps.ConsensusClubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1040,7 +1047,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brilliantage.apps.ConsensusClubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1050,16 +1057,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				INFOPLIST_FILE = "Consensus ClubsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Swift-Clean-ArchitectureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brilliantage.apps.ConsensusClubsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consensus Clubs.app/Consensus Clubs";
 			};
@@ -1070,16 +1080,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62UV28KBXG;
 				INFOPLIST_FILE = "Consensus ClubsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.Swift-Clean-ArchitectureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brilliantage.apps.ConsensusClubsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Consensus Clubs.app/Consensus Clubs";
 			};
