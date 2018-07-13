@@ -72,25 +72,25 @@ class AuthViewController: UIViewController, SFSafariViewControllerDelegate {
                 } else {
                     let twitterAccount = twitterAccounts[0] as! ACAccount
                     self.swifter = Swifter(account: twitterAccount)
-                    self.fetchClubsHomeStream()
+                    self.fetchPollsHomeStream()
                 }
             }
         } else {
             let url = URL(string: "consensusclubs://success")!
             swifter.authorize(withCallback: url, presentingFrom: self, success: { _, _ in
-                self.fetchClubsHomeStream()
+                self.fetchPollsHomeStream()
             }, failure: failureHandler)
         }
     }
 
-    func fetchClubsHomeStream() {
+    func fetchPollsHomeStream() {
 //        let failureHandler: (Error) -> Void = { error in
 //            self.alert(title: "Error", message: error.localizedDescription)
 //        }
         
-        let listClubsViewController = self.storyboard!.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        let listPollsViewController = self.storyboard!.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
     
-        self.navigationController?.pushViewController(listClubsViewController, animated: true)
+        self.navigationController?.pushViewController(listPollsViewController, animated: true)
 
     }
 

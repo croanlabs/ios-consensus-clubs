@@ -1,5 +1,5 @@
 //
-//  ListClubsRouter.swift
+//  ListPollsRouter.swift
 //  Consensus Clubs
 //
 //  Created by Ger O'Sullivan on 2018-05-18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ListClubsRouter {
+struct ListPollsRouter {
     weak var viewController: UIViewController?
     
     init(viewController: UIViewController?) {
@@ -16,10 +16,10 @@ struct ListClubsRouter {
     }
 }
 
-extension ListClubsRouter: ListClubsRoutable {
+extension ListPollsRouter: ListPollsRoutable {
     
-    func showClub(for id: Int) {
-        show(storyboard: .showClub) { (controller: ShowClubViewController) in
+    func showPoll(for id: Int) {
+        show(storyboard: .showPoll) { (controller: ShowPollViewController) in
             controller.productID = id
         }
     }

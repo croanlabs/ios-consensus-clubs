@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol ClubType {
+public protocol PollType {
     var id: Int { get }
     var name: String { get }
     var content: String { get }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct ShowClubRouter {
+struct ShowPollRouter {
     weak var viewController: UIViewController?
     
     init(viewController: UIViewController?) {
@@ -16,6 +16,6 @@ struct ShowClubRouter {
     }
 }
 
-extension ShowClubRouter: ShowClubRoutable {
+extension ShowPollRouter: ShowPollRoutable {
     
 }

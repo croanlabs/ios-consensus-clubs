@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Club: ClubType {
+public struct Poll: PollType {
     public let id: Int
     public let name: String
     public let content: String

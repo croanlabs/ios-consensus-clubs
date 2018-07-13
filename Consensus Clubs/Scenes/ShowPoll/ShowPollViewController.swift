@@ -9,7 +9,7 @@
 import UIKit
 import CompanyCore
 
-class ShowClubViewController: UIViewController {
+class ShowPollViewController: UIViewController {
     
     // MARK: - Controls
     
@@ -18,12 +18,12 @@ class ShowClubViewController: UIViewController {
     
     // MARK: - VIP variables
     
-    private lazy var interactor: ShowClubBusinessLogic = ShowClubInteractor(
-        presenter: ShowClubPresenter(viewController: self),
-        clubsWorker: ClubsWorker(store: ClubsMemoryStore())
+    private lazy var interactor: ShowPollBusinessLogic = ShowPollInteractor(
+        presenter: ShowPollPresenter(viewController: self),
+        pollsWorker: PollsWorker(store: PollsMemoryStore())
     )
     
-    private lazy var router: ShowClubRoutable = ShowClubRouter(
+    private lazy var router: ShowPollRoutable = ShowPollRouter(
         viewController: self
     )
     
@@ -43,7 +43,7 @@ class ShowClubViewController: UIViewController {
 
 // MARK: - Events
 
-private extension ShowClubViewController {
+private extension ShowPollViewController {
     
     func configure() {
         // Bind pre-fetched data if available, still fetch via loadData()
@@ -58,8 +58,8 @@ private extension ShowClubViewController {
     }
         
     func loadData() {
-        interactor.fetchProduct(
-            with: ShowProductModels.FetchRequest(
+        interactor.fetchPoll(
+            with: ShowPollModels.FetchRequest(
                 id: productID
             )
         )
@@ -68,9 +68,9 @@ private extension ShowClubViewController {
 
 // MARK: - VIP cycle
 
-extension ShowClubViewController: ShowClubDisplayable {
+extension ShowPollViewController: ShowPollDisplayable {
 
-    func displayFetchedProduct(with viewModel: ShowProductModels.ViewModel) {
+    func displayFetchedPoll(with viewModel: ShowPollModels.ViewModel) {
         navigationItem.title = viewModel.name
         contentLabel.text = viewModel.content
         priceLabel.text = viewModel.price
@@ -79,7 +79,7 @@ extension ShowClubViewController: ShowClubDisplayable {
 
 // MARK: - Taps
 
-private extension ShowClubViewController {
+private extension ShowPollViewController {
     
     @IBAction func close(_ sender: Any) {
         router.dismiss()

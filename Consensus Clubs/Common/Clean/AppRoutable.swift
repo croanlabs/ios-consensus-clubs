@@ -43,7 +43,7 @@ extension AppRoutable {
 // MARK: - Storyboard identifiers for routing
 
 enum Storyboard: String {
-    case listClubs = "ListClubs"
-    case showClub = "ShowClub"
+    case listPolls = "ListPolls"
+    case showPoll = "ShowPoll"
     case showProfile = "ShowProfile"
 }

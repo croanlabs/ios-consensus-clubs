@@ -12,44 +12,44 @@
 		28B7009120E92A9C0046B350 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7008F20E92A9C0046B350 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28CBB03120F843AA005FD459 /* Consensus_ClubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839660520F840740047CD4F /* Consensus_ClubsTests.swift */; };
 		8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E22087E12D005B8994 /* MainViewController.swift */; };
-		8B5DB4E52087E13E005B8994 /* ListClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */; };
-		8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */; };
+		8B5DB4E52087E13E005B8994 /* ListPollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */; };
+		8B5DB4E72087E14D005B8994 /* ShowPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E62087E14D005B8994 /* ShowPollViewController.swift */; };
 		8B5DB4E92087E15D005B8994 /* ShowProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E82087E15D005B8994 /* ShowProfileViewController.swift */; };
-		8B5DB4EB2087E170005B8994 /* ListClubs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EA2087E170005B8994 /* ListClubs.storyboard */; };
-		8B5DB4ED2087E17B005B8994 /* ShowClub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */; };
+		8B5DB4EB2087E170005B8994 /* ListPolls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EA2087E170005B8994 /* ListPolls.storyboard */; };
+		8B5DB4ED2087E17B005B8994 /* ShowPoll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EC2087E17B005B8994 /* ShowPoll.storyboard */; };
 		8B5DB4EF2087E186005B8994 /* ShowProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB4EE2087E186005B8994 /* ShowProfile.storyboard */; };
-		8B5DB4F72087E1E7005B8994 /* ListClubsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F62087E1E7005B8994 /* ListClubsInterfaces.swift */; };
-		8B5DB4F92087E1FD005B8994 /* ListClubsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F82087E1FD005B8994 /* ListClubsModels.swift */; };
-		8B5DB4FB2087E20F005B8994 /* ShowProductInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FA2087E20F005B8994 /* ShowProductInterfaces.swift */; };
-		8B5DB4FD2087E220005B8994 /* ShowProductModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FC2087E220005B8994 /* ShowProductModels.swift */; };
+		8B5DB4F72087E1E7005B8994 /* ListPollsInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F62087E1E7005B8994 /* ListPollsInterfaces.swift */; };
+		8B5DB4F92087E1FD005B8994 /* ListPollsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4F82087E1FD005B8994 /* ListPollsModels.swift */; };
+		8B5DB4FB2087E20F005B8994 /* ShowPollInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FA2087E20F005B8994 /* ShowPollInterfaces.swift */; };
+		8B5DB4FD2087E220005B8994 /* ShowPollModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FC2087E220005B8994 /* ShowPollModels.swift */; };
 		8B5DB4FF2087E22F005B8994 /* ShowProfileInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4FE2087E22F005B8994 /* ShowProfileInterfaces.swift */; };
 		8B5DB5012087E271005B8994 /* ShowProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5002087E271005B8994 /* ShowProfileModels.swift */; };
-		8B5DB5032087E29D005B8994 /* ListClubsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5022087E29D005B8994 /* ListClubsInteractor.swift */; };
-		8B5DB5052087E2B4005B8994 /* ShowClubInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */; };
+		8B5DB5032087E29D005B8994 /* ListPollsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5022087E29D005B8994 /* ListPollsInteractor.swift */; };
+		8B5DB5052087E2B4005B8994 /* ShowPollInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5042087E2B4005B8994 /* ShowPollInteractor.swift */; };
 		8B5DB5072087E2C2005B8994 /* ShowProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5062087E2C2005B8994 /* ShowProfileInteractor.swift */; };
-		8B5DB5092087E2D3005B8994 /* ListClubsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */; };
-		8B5DB50B2087E2DF005B8994 /* ShowClubPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */; };
+		8B5DB5092087E2D3005B8994 /* ListPollsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5082087E2D3005B8994 /* ListPollsPresenter.swift */; };
+		8B5DB50B2087E2DF005B8994 /* ShowPollPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50A2087E2DF005B8994 /* ShowPollPresenter.swift */; };
 		8B5DB50D2087E2EA005B8994 /* ShowProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50C2087E2EA005B8994 /* ShowProfilePresenter.swift */; };
-		8B5DB50F2087E2FA005B8994 /* ListClubsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */; };
-		8B5DB5112087E303005B8994 /* ShowClubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5102087E303005B8994 /* ShowClubRouter.swift */; };
+		8B5DB50F2087E2FA005B8994 /* ListPollsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB50E2087E2FA005B8994 /* ListPollsRouter.swift */; };
+		8B5DB5112087E303005B8994 /* ShowPollRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5102087E303005B8994 /* ShowPollRouter.swift */; };
 		8B5DB5132087E310005B8994 /* ShowProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5122087E310005B8994 /* ShowProfileRouter.swift */; };
 		8B5DB5222087E381005B8994 /* CompanyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5DB5192087E381005B8994 /* CompanyCore.framework */; };
 		8B5DB5292087E381005B8994 /* Company_Core_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5282087E381005B8994 /* Company_Core_iOSTests.swift */; };
 		8B5DB52B2087E381005B8994 /* Company_Core_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5DB51B2087E381005B8994 /* Company_Core_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5DB52E2087E381005B8994 /* CompanyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5DB5192087E381005B8994 /* CompanyCore.framework */; };
 		8B5DB52F2087E381005B8994 /* CompanyCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5DB5192087E381005B8994 /* CompanyCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B5DB5442087E505005B8994 /* ClubsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5432087E505005B8994 /* ClubsWorker.swift */; };
-		8B5DB5462087E8C9005B8994 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5452087E8C9005B8994 /* Club.swift */; };
-		8B5DB5482087E8DD005B8994 /* ClubType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5472087E8DD005B8994 /* ClubType.swift */; };
+		8B5DB5442087E505005B8994 /* PollsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5432087E505005B8994 /* PollsWorker.swift */; };
+		8B5DB5462087E8C9005B8994 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5452087E8C9005B8994 /* Poll.swift */; };
+		8B5DB5482087E8DD005B8994 /* PollType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5472087E8DD005B8994 /* PollType.swift */; };
 		8B5DB54C2087F0F6005B8994 /* AppDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB54B2087F0F6005B8994 /* AppDisplayable.swift */; };
 		8B5DB54E2087F102005B8994 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB54D2087F102005B8994 /* AppModels.swift */; };
-		8B5DB5502088E89B005B8994 /* ClubsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB54F2088E89B005B8994 /* ClubsModels.swift */; };
+		8B5DB5502088E89B005B8994 /* PollsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB54F2088E89B005B8994 /* PollsModels.swift */; };
 		8B5DB5522088E954005B8994 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5512088E954005B8994 /* Result.swift */; };
 		8B5DB5542088EA02005B8994 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5532088EA02005B8994 /* DataError.swift */; };
-		8B5DB5562088EAF0005B8994 /* ClubsStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5552088EAF0005B8994 /* ClubsStoreInterfaces.swift */; };
-		8B5DB5582088EB04005B8994 /* ClubsMemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5572088EB04005B8994 /* ClubsMemoryStore.swift */; };
-		8B5DB55B2088F930005B8994 /* ListClubsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB55A2088F930005B8994 /* ListClubsTableViewCell.swift */; };
-		8B5DB55D2088F945005B8994 /* ListClubsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB55C2088F945005B8994 /* ListClubsTableViewCell.xib */; };
+		8B5DB5562088EAF0005B8994 /* PollsStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5552088EAF0005B8994 /* PollsStoreInterfaces.swift */; };
+		8B5DB5582088EB04005B8994 /* PollsMemoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB5572088EB04005B8994 /* PollsMemoryStore.swift */; };
+		8B5DB55B2088F930005B8994 /* ListPollsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB55A2088F930005B8994 /* ListPollsTableViewCell.swift */; };
+		8B5DB55D2088F945005B8994 /* ListPollsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5DB55C2088F945005B8994 /* ListPollsTableViewCell.xib */; };
 		8B5DB591208A4C09005B8994 /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB590208A4C09005B8994 /* Routable.swift */; };
 		8B5DB593208A4CB6005B8994 /* AppRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB592208A4CB6005B8994 /* AppRoutable.swift */; };
 		8B5DB595208A7129005B8994 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB594208A7129005B8994 /* User.swift */; };
@@ -114,26 +114,26 @@
 		283A565F20E8602100B351E0 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		28B7008F20E92A9C0046B350 /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = "External Frameworks/SwifteriOS.framework"; sourceTree = "<group>"; };
 		8B5DB4E22087E12D005B8994 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsViewController.swift; sourceTree = "<group>"; };
-		8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubViewController.swift; sourceTree = "<group>"; };
+		8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsViewController.swift; sourceTree = "<group>"; };
+		8B5DB4E62087E14D005B8994 /* ShowPollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E82087E15D005B8994 /* ShowProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileViewController.swift; sourceTree = "<group>"; };
-		8B5DB4EA2087E170005B8994 /* ListClubs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListClubs.storyboard; sourceTree = "<group>"; };
-		8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowClub.storyboard; sourceTree = "<group>"; };
+		8B5DB4EA2087E170005B8994 /* ListPolls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListPolls.storyboard; sourceTree = "<group>"; };
+		8B5DB4EC2087E17B005B8994 /* ShowPoll.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowPoll.storyboard; sourceTree = "<group>"; };
 		8B5DB4EE2087E186005B8994 /* ShowProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShowProfile.storyboard; sourceTree = "<group>"; };
-		8B5DB4F62087E1E7005B8994 /* ListClubsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsInterfaces.swift; sourceTree = "<group>"; };
-		8B5DB4F82087E1FD005B8994 /* ListClubsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsModels.swift; sourceTree = "<group>"; };
-		8B5DB4FA2087E20F005B8994 /* ShowProductInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductInterfaces.swift; sourceTree = "<group>"; };
-		8B5DB4FC2087E220005B8994 /* ShowProductModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProductModels.swift; sourceTree = "<group>"; };
+		8B5DB4F62087E1E7005B8994 /* ListPollsInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsInterfaces.swift; sourceTree = "<group>"; };
+		8B5DB4F82087E1FD005B8994 /* ListPollsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsModels.swift; sourceTree = "<group>"; };
+		8B5DB4FA2087E20F005B8994 /* ShowPollInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollInterfaces.swift; sourceTree = "<group>"; };
+		8B5DB4FC2087E220005B8994 /* ShowPollModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollModels.swift; sourceTree = "<group>"; };
 		8B5DB4FE2087E22F005B8994 /* ShowProfileInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileInterfaces.swift; sourceTree = "<group>"; };
 		8B5DB5002087E271005B8994 /* ShowProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileModels.swift; sourceTree = "<group>"; };
-		8B5DB5022087E29D005B8994 /* ListClubsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsInteractor.swift; sourceTree = "<group>"; };
-		8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubInteractor.swift; sourceTree = "<group>"; };
+		8B5DB5022087E29D005B8994 /* ListPollsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsInteractor.swift; sourceTree = "<group>"; };
+		8B5DB5042087E2B4005B8994 /* ShowPollInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollInteractor.swift; sourceTree = "<group>"; };
 		8B5DB5062087E2C2005B8994 /* ShowProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileInteractor.swift; sourceTree = "<group>"; };
-		8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsPresenter.swift; sourceTree = "<group>"; };
-		8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubPresenter.swift; sourceTree = "<group>"; };
+		8B5DB5082087E2D3005B8994 /* ListPollsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsPresenter.swift; sourceTree = "<group>"; };
+		8B5DB50A2087E2DF005B8994 /* ShowPollPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollPresenter.swift; sourceTree = "<group>"; };
 		8B5DB50C2087E2EA005B8994 /* ShowProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfilePresenter.swift; sourceTree = "<group>"; };
-		8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsRouter.swift; sourceTree = "<group>"; };
-		8B5DB5102087E303005B8994 /* ShowClubRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowClubRouter.swift; sourceTree = "<group>"; };
+		8B5DB50E2087E2FA005B8994 /* ListPollsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsRouter.swift; sourceTree = "<group>"; };
+		8B5DB5102087E303005B8994 /* ShowPollRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollRouter.swift; sourceTree = "<group>"; };
 		8B5DB5122087E310005B8994 /* ShowProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProfileRouter.swift; sourceTree = "<group>"; };
 		8B5DB5192087E381005B8994 /* CompanyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompanyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5DB51B2087E381005B8994 /* Company_Core_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company_Core_iOS.h; sourceTree = "<group>"; };
@@ -141,18 +141,18 @@
 		8B5DB5212087E381005B8994 /* Company Core iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Company Core iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B5DB5282087E381005B8994 /* Company_Core_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_Core_iOSTests.swift; sourceTree = "<group>"; };
 		8B5DB52A2087E381005B8994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B5DB5432087E505005B8994 /* ClubsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsWorker.swift; sourceTree = "<group>"; };
-		8B5DB5452087E8C9005B8994 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
-		8B5DB5472087E8DD005B8994 /* ClubType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubType.swift; sourceTree = "<group>"; };
+		8B5DB5432087E505005B8994 /* PollsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollsWorker.swift; sourceTree = "<group>"; };
+		8B5DB5452087E8C9005B8994 /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		8B5DB5472087E8DD005B8994 /* PollType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollType.swift; sourceTree = "<group>"; };
 		8B5DB54B2087F0F6005B8994 /* AppDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDisplayable.swift; sourceTree = "<group>"; };
 		8B5DB54D2087F102005B8994 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
-		8B5DB54F2088E89B005B8994 /* ClubsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsModels.swift; sourceTree = "<group>"; };
+		8B5DB54F2088E89B005B8994 /* PollsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollsModels.swift; sourceTree = "<group>"; };
 		8B5DB5512088E954005B8994 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		8B5DB5532088EA02005B8994 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
-		8B5DB5552088EAF0005B8994 /* ClubsStoreInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsStoreInterfaces.swift; sourceTree = "<group>"; };
-		8B5DB5572088EB04005B8994 /* ClubsMemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsMemoryStore.swift; sourceTree = "<group>"; };
-		8B5DB55A2088F930005B8994 /* ListClubsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListClubsTableViewCell.swift; sourceTree = "<group>"; };
-		8B5DB55C2088F945005B8994 /* ListClubsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListClubsTableViewCell.xib; sourceTree = "<group>"; };
+		8B5DB5552088EAF0005B8994 /* PollsStoreInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollsStoreInterfaces.swift; sourceTree = "<group>"; };
+		8B5DB5572088EB04005B8994 /* PollsMemoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollsMemoryStore.swift; sourceTree = "<group>"; };
+		8B5DB55A2088F930005B8994 /* ListPollsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsTableViewCell.swift; sourceTree = "<group>"; };
+		8B5DB55C2088F945005B8994 /* ListPollsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListPollsTableViewCell.xib; sourceTree = "<group>"; };
 		8B5DB590208A4C09005B8994 /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
 		8B5DB592208A4CB6005B8994 /* AppRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoutable.swift; sourceTree = "<group>"; };
 		8B5DB594208A7129005B8994 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -219,8 +219,8 @@
 				283A565E20E8600A00B351E0 /* Login */,
 				8BAA0C2C2087884E005A7ED8 /* LaunchScreen.storyboard */,
 				8B5DB4DE2087E063005B8994 /* Main */,
-				8B5DB4DF2087E0C9005B8994 /* ListClubs */,
-				8B5DB4E02087E0D8005B8994 /* ShowClub */,
+				8B5DB4DF2087E0C9005B8994 /* ListPolls */,
+				8B5DB4E02087E0D8005B8994 /* ShowPoll */,
 				8B5DB4E12087E108005B8994 /* ShowProfile */,
 			);
 			path = Scenes;
@@ -235,31 +235,31 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		8B5DB4DF2087E0C9005B8994 /* ListClubs */ = {
+		8B5DB4DF2087E0C9005B8994 /* ListPolls */ = {
 			isa = PBXGroup;
 			children = (
 				8B5DB4F12087E1B3005B8994 /* Common */,
 				8B5DB5592088F90A005B8994 /* Controls */,
-				8B5DB4EA2087E170005B8994 /* ListClubs.storyboard */,
-				8B5DB4E42087E13E005B8994 /* ListClubsViewController.swift */,
-				8B5DB5022087E29D005B8994 /* ListClubsInteractor.swift */,
-				8B5DB5082087E2D3005B8994 /* ListClubsPresenter.swift */,
-				8B5DB50E2087E2FA005B8994 /* ListClubsRouter.swift */,
+				8B5DB4EA2087E170005B8994 /* ListPolls.storyboard */,
+				8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */,
+				8B5DB5022087E29D005B8994 /* ListPollsInteractor.swift */,
+				8B5DB5082087E2D3005B8994 /* ListPollsPresenter.swift */,
+				8B5DB50E2087E2FA005B8994 /* ListPollsRouter.swift */,
 			);
-			path = ListClubs;
+			path = ListPolls;
 			sourceTree = "<group>";
 		};
-		8B5DB4E02087E0D8005B8994 /* ShowClub */ = {
+		8B5DB4E02087E0D8005B8994 /* ShowPoll */ = {
 			isa = PBXGroup;
 			children = (
 				8B5DB4F22087E1B6005B8994 /* Common */,
-				8B5DB4EC2087E17B005B8994 /* ShowClub.storyboard */,
-				8B5DB4E62087E14D005B8994 /* ShowClubViewController.swift */,
-				8B5DB5042087E2B4005B8994 /* ShowClubInteractor.swift */,
-				8B5DB50A2087E2DF005B8994 /* ShowClubPresenter.swift */,
-				8B5DB5102087E303005B8994 /* ShowClubRouter.swift */,
+				8B5DB4EC2087E17B005B8994 /* ShowPoll.storyboard */,
+				8B5DB4E62087E14D005B8994 /* ShowPollViewController.swift */,
+				8B5DB5042087E2B4005B8994 /* ShowPollInteractor.swift */,
+				8B5DB50A2087E2DF005B8994 /* ShowPollPresenter.swift */,
+				8B5DB5102087E303005B8994 /* ShowPollRouter.swift */,
 			);
-			path = ShowClub;
+			path = ShowPoll;
 			sourceTree = "<group>";
 		};
 		8B5DB4E12087E108005B8994 /* ShowProfile */ = {
@@ -278,8 +278,8 @@
 		8B5DB4F12087E1B3005B8994 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				8B5DB4F62087E1E7005B8994 /* ListClubsInterfaces.swift */,
-				8B5DB4F82087E1FD005B8994 /* ListClubsModels.swift */,
+				8B5DB4F62087E1E7005B8994 /* ListPollsInterfaces.swift */,
+				8B5DB4F82087E1FD005B8994 /* ListPollsModels.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -287,8 +287,8 @@
 		8B5DB4F22087E1B6005B8994 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				8B5DB4FA2087E20F005B8994 /* ShowProductInterfaces.swift */,
-				8B5DB4FC2087E220005B8994 /* ShowProductModels.swift */,
+				8B5DB4FA2087E20F005B8994 /* ShowPollInterfaces.swift */,
+				8B5DB4FC2087E220005B8994 /* ShowPollModels.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -345,7 +345,7 @@
 		8B5DB53A2087E460005B8994 /* Stores */ = {
 			isa = PBXGroup;
 			children = (
-				8B5DB53C2087E488005B8994 /* Products */,
+				8B5DB53C2087E488005B8994 /* Polls */,
 				8B5DB53B2087E47E005B8994 /* Users */,
 			);
 			path = Stores;
@@ -362,15 +362,15 @@
 			path = Users;
 			sourceTree = "<group>";
 		};
-		8B5DB53C2087E488005B8994 /* Products */ = {
+		8B5DB53C2087E488005B8994 /* Polls */ = {
 			isa = PBXGroup;
 			children = (
 				8B5DB5412087E4E8005B8994 /* Models */,
-				8B5DB5552088EAF0005B8994 /* ClubsStoreInterfaces.swift */,
-				8B5DB5572088EB04005B8994 /* ClubsMemoryStore.swift */,
-				8B5DB5432087E505005B8994 /* ClubsWorker.swift */,
+				8B5DB5552088EAF0005B8994 /* PollsStoreInterfaces.swift */,
+				8B5DB5572088EB04005B8994 /* PollsMemoryStore.swift */,
+				8B5DB5432087E505005B8994 /* PollsWorker.swift */,
 			);
-			path = Products;
+			path = Polls;
 			sourceTree = "<group>";
 		};
 		8B5DB53D2087E49B005B8994 /* Enums */ = {
@@ -406,9 +406,9 @@
 		8B5DB5412087E4E8005B8994 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8B5DB5452087E8C9005B8994 /* Club.swift */,
-				8B5DB5472087E8DD005B8994 /* ClubType.swift */,
-				8B5DB54F2088E89B005B8994 /* ClubsModels.swift */,
+				8B5DB5452087E8C9005B8994 /* Poll.swift */,
+				8B5DB5472087E8DD005B8994 /* PollType.swift */,
+				8B5DB54F2088E89B005B8994 /* PollsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -443,8 +443,8 @@
 		8B5DB5592088F90A005B8994 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				8B5DB55A2088F930005B8994 /* ListClubsTableViewCell.swift */,
-				8B5DB55C2088F945005B8994 /* ListClubsTableViewCell.xib */,
+				8B5DB55A2088F930005B8994 /* ListPollsTableViewCell.swift */,
+				8B5DB55C2088F945005B8994 /* ListPollsTableViewCell.xib */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -659,12 +659,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B5DB4ED2087E17B005B8994 /* ShowClub.storyboard in Resources */,
+				8B5DB4ED2087E17B005B8994 /* ShowPoll.storyboard in Resources */,
 				8B5DB4EF2087E186005B8994 /* ShowProfile.storyboard in Resources */,
 				8BAA0C2E2087884E005A7ED8 /* LaunchScreen.storyboard in Resources */,
 				8BAA0C2B2087884E005A7ED8 /* Assets.xcassets in Resources */,
-				8B5DB4EB2087E170005B8994 /* ListClubs.storyboard in Resources */,
-				8B5DB55D2088F945005B8994 /* ListClubsTableViewCell.xib in Resources */,
+				8B5DB4EB2087E170005B8994 /* ListPolls.storyboard in Resources */,
+				8B5DB55D2088F945005B8994 /* ListPollsTableViewCell.xib in Resources */,
 				8BAA0C292087884C005A7ED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,17 +686,17 @@
 				8B5DB5542088EA02005B8994 /* DataError.swift in Sources */,
 				8B5DB59B208A716F005B8994 /* UsersMemoryStore.swift in Sources */,
 				8B5DB597208A7134005B8994 /* UserType.swift in Sources */,
-				8B5DB5442087E505005B8994 /* ClubsWorker.swift in Sources */,
+				8B5DB5442087E505005B8994 /* PollsWorker.swift in Sources */,
 				8B5DB5522088E954005B8994 /* Result.swift in Sources */,
-				8B5DB5462087E8C9005B8994 /* Club.swift in Sources */,
+				8B5DB5462087E8C9005B8994 /* Poll.swift in Sources */,
 				8B5DB59D208A7183005B8994 /* UsersWorker.swift in Sources */,
 				8B5DB599208A7145005B8994 /* UsersStoreInterfaces.swift in Sources */,
-				8B5DB5482087E8DD005B8994 /* ClubType.swift in Sources */,
-				8B5DB5562088EAF0005B8994 /* ClubsStoreInterfaces.swift in Sources */,
-				8B5DB5582088EB04005B8994 /* ClubsMemoryStore.swift in Sources */,
+				8B5DB5482087E8DD005B8994 /* PollType.swift in Sources */,
+				8B5DB5562088EAF0005B8994 /* PollsStoreInterfaces.swift in Sources */,
+				8B5DB5582088EB04005B8994 /* PollsMemoryStore.swift in Sources */,
 				8B5DB591208A4C09005B8994 /* Routable.swift in Sources */,
 				8B5DB595208A7129005B8994 /* User.swift in Sources */,
-				8B5DB5502088E89B005B8994 /* ClubsModels.swift in Sources */,
+				8B5DB5502088E89B005B8994 /* PollsModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,30 +713,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5DB54C2087F0F6005B8994 /* AppDisplayable.swift in Sources */,
-				8B5DB5032087E29D005B8994 /* ListClubsInteractor.swift in Sources */,
+				8B5DB5032087E29D005B8994 /* ListPollsInteractor.swift in Sources */,
 				8B5DB50D2087E2EA005B8994 /* ShowProfilePresenter.swift in Sources */,
 				8B5DB54E2087F102005B8994 /* AppModels.swift in Sources */,
-				8B5DB5052087E2B4005B8994 /* ShowClubInteractor.swift in Sources */,
-				8B5DB55B2088F930005B8994 /* ListClubsTableViewCell.swift in Sources */,
+				8B5DB5052087E2B4005B8994 /* ShowPollInteractor.swift in Sources */,
+				8B5DB55B2088F930005B8994 /* ListPollsTableViewCell.swift in Sources */,
 				8B5DB593208A4CB6005B8994 /* AppRoutable.swift in Sources */,
 				8B5DB5012087E271005B8994 /* ShowProfileModels.swift in Sources */,
-				8B5DB50B2087E2DF005B8994 /* ShowClubPresenter.swift in Sources */,
+				8B5DB50B2087E2DF005B8994 /* ShowPollPresenter.swift in Sources */,
 				8BAA0C242087884C005A7ED8 /* AppDelegate.swift in Sources */,
-				8B5DB4FB2087E20F005B8994 /* ShowProductInterfaces.swift in Sources */,
-				8B5DB50F2087E2FA005B8994 /* ListClubsRouter.swift in Sources */,
+				8B5DB4FB2087E20F005B8994 /* ShowPollInterfaces.swift in Sources */,
+				8B5DB50F2087E2FA005B8994 /* ListPollsRouter.swift in Sources */,
 				8B5DB5132087E310005B8994 /* ShowProfileRouter.swift in Sources */,
-				8B5DB4FD2087E220005B8994 /* ShowProductModels.swift in Sources */,
-				8B5DB4E52087E13E005B8994 /* ListClubsViewController.swift in Sources */,
+				8B5DB4FD2087E220005B8994 /* ShowPollModels.swift in Sources */,
+				8B5DB4E52087E13E005B8994 /* ListPollsViewController.swift in Sources */,
 				8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */,
 				8B5DB4FF2087E22F005B8994 /* ShowProfileInterfaces.swift in Sources */,
 				283A566020E8602100B351E0 /* AuthViewController.swift in Sources */,
-				8B5DB4E72087E14D005B8994 /* ShowClubViewController.swift in Sources */,
-				8B5DB5112087E303005B8994 /* ShowClubRouter.swift in Sources */,
+				8B5DB4E72087E14D005B8994 /* ShowPollViewController.swift in Sources */,
+				8B5DB5112087E303005B8994 /* ShowPollRouter.swift in Sources */,
 				8B5DB4E92087E15D005B8994 /* ShowProfileViewController.swift in Sources */,
 				8B5DB5072087E2C2005B8994 /* ShowProfileInteractor.swift in Sources */,
-				8B5DB4F72087E1E7005B8994 /* ListClubsInterfaces.swift in Sources */,
-				8B5DB5092087E2D3005B8994 /* ListClubsPresenter.swift in Sources */,
-				8B5DB4F92087E1FD005B8994 /* ListClubsModels.swift in Sources */,
+				8B5DB4F72087E1E7005B8994 /* ListPollsInterfaces.swift in Sources */,
+				8B5DB5092087E2D3005B8994 /* ListPollsPresenter.swift in Sources */,
+				8B5DB4F92087E1FD005B8994 /* ListPollsModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

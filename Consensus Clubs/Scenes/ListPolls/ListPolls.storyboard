@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Clubs-->
+        <!--Polls-->
         <scene sceneID="qoL-JS-HhV">
             <objects>
-                <viewController id="Z2l-VK-Bg9" customClass="ListClubsViewController" customModule="Consensus_Clubs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z2l-VK-Bg9" customClass="ListPollsViewController" customModule="Consensus_Clubs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NM7-Is-Ik7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,7 +36,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XdP-nn-CIu"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Clubs" id="iA1-hn-zNo">
+                    <navigationItem key="navigationItem" title="Polls" id="iA1-hn-zNo">
                         <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="Ot4-U1-Gku">
                             <connections>
                                 <action selector="openBookmark:" destination="Z2l-VK-Bg9" id="NeF-eF-8h6"/>
@@ -51,11 +51,11 @@
             </objects>
             <point key="canvasLocation" x="896.79999999999995" y="154.27286356821591"/>
         </scene>
-        <!--Clubs-->
+        <!--Polls-->
         <scene sceneID="tix-Fr-JDO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1em-l7-omd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Clubs" image="first" id="DGl-fp-Rjr"/>
+                    <tabBarItem key="tabBarItem" title="Polls" image="first" id="DGl-fp-Rjr"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="7Ta-fJ-YnW">

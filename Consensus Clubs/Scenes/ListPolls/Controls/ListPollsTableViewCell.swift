@@ -1,5 +1,5 @@
 //
-//  ListClubsTableViewCell.swift
+//  ListPollsTableViewCell.swift
 //  Consensus Clubs
 //
 //  Created by Ger O'Sullivan on 2018-05-19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ListClubsTableViewCell: UITableViewCell {
+class ListPollsTableViewCell: UITableViewCell {
 
     // MARK: - Controls
     
@@ -18,9 +18,9 @@ class ListClubsTableViewCell: UITableViewCell {
     
 }
 
-extension ListClubsTableViewCell {
+extension ListPollsTableViewCell {
     
-    func bind(_ model: ListClubsModels.ClubViewModel) {
+    func bind(_ model: ListPollsModels.PollViewModel) {
         idLabel.text = "\(model.id)"
         nameLabel.text = model.name
         priceLabel.text = model.price

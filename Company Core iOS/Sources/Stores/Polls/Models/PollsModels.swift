@@ -6,7 +6,7 @@
 //  Copyright © 2018 Consensus Clubs. All rights reserved.
 //
 
-public enum ClubsModels {
+public enum PollsModels {
     
     public struct SearchRequest {
         let query: String

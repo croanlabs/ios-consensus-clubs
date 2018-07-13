@@ -1,5 +1,5 @@
 //
-//  ListClubsViewController.swift
+//  ListPollsViewController.swift
 //  Consensus Clubs
 //
 //  Created by Ger O'Sullivan on 2018-05-18.
@@ -9,14 +9,14 @@
 import UIKit
 import CompanyCore
 
-class ListClubsViewController: UIViewController {
+class ListPollsViewController: UIViewController {
     
     // MARK: - Controls
     
     @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.register(
-                UINib(nibName: String(describing: ListClubsTableViewCell.self), bundle: nil),
+                UINib(nibName: String(describing: ListPollsTableViewCell.self), bundle: nil),
                 forCellReuseIdentifier: cellReuseIdentifier
             )
         }
@@ -26,24 +26,24 @@ class ListClubsViewController: UIViewController {
         $0.searchResultsUpdater = self
         $0.hidesNavigationBarDuringPresentation = false
         $0.dimsBackgroundDuringPresentation = false
-        $0.searchBar.placeholder = "Search clubs..."
+        $0.searchBar.placeholder = "Search polls..."
         return $0
     }(UISearchController(searchResultsController: nil))
     
     // MARK: - VIP variables
     
-    private lazy var interactor: ListClubsBusinessLogic = ListClubsInteractor(
-        presenter: ListClubsPresenter(viewController: self),
-        clubsWorker: ClubsWorker(store: ClubsMemoryStore())
+    private lazy var interactor: ListPollsBusinessLogic = ListPollsInteractor(
+        presenter: ListPollsPresenter(viewController: self),
+        pollsWorker: PollsWorker(store: PollsMemoryStore())
     )
     
-    private lazy var router: ListClubsRoutable = ListClubsRouter(
+    private lazy var router: ListPollsRoutable = ListPollsRouter(
         viewController: self
     )
     
     // MARK: - View models
     
-    private var viewModel: ListClubsModels.ViewModel?
+    private var viewModel: ListPollsModels.ViewModel?
     
     // MARK: - Internal variables
     
@@ -60,7 +60,7 @@ class ListClubsViewController: UIViewController {
 
 // MARK: - Events
 
-private extension ListClubsViewController {
+private extension ListPollsViewController {
     
     func configure() {
         navigationItem.hidesSearchBarWhenScrolling = false
@@ -68,14 +68,14 @@ private extension ListClubsViewController {
     }
     
     func loadData() {
-        interactor.fetchClubs(
-            with: ListClubsModels.FetchRequest()
+        interactor.fetchPolls(
+            with: ListPollsModels.FetchRequest()
         )
     }
     
     func searchData(for text: String) {
-        interactor.searchClubs(
-            with: ListClubsModels.SearchRequest(text: text)
+        interactor.searchPolls(
+            with: ListPollsModels.SearchRequest(text: text)
         )
     }
     
@@ -86,14 +86,14 @@ private extension ListClubsViewController {
 
 // MARK: - VIP cycle
 
-extension ListClubsViewController: ListClubsDisplayable {
+extension ListPollsViewController: ListPollsDisplayable {
     
-    func displayFetchedClubs(with viewModel: ListClubsModels.ViewModel) {
+    func displayFetchedPolls(with viewModel: ListPollsModels.ViewModel) {
         self.viewModel = viewModel
         loadUI()
     }
     
-    func displaySearchedClubs(with viewModel: ListClubsModels.ViewModel) {
+    func displaySearchedPolls(with viewModel: ListPollsModels.ViewModel) {
         self.viewModel = viewModel
         loadUI()
     }
@@ -101,7 +101,7 @@ extension ListClubsViewController: ListClubsDisplayable {
 
 // MARK: - Taps
 
-extension ListClubsViewController {
+extension ListPollsViewController {
 
     @IBAction func openBookmark(_ sender: Any) {
         router.showBookmark()
@@ -110,29 +110,29 @@ extension ListClubsViewController {
 
 // MARK: - Delegates
 
-extension ListClubsViewController: UITableViewDelegate {
+extension ListPollsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let model = viewModel?.clubs[indexPath.row] else { return }
-        router.showClub(for: model.id)
+        guard let model = viewModel?.polls[indexPath.row] else { return }
+        router.showPoll(for: model.id)
     }
 }
 
-extension ListClubsViewController: UITableViewDataSource {
+extension ListPollsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel?.clubs.count ?? 0
+        return viewModel?.polls.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath) as! ListClubsTableViewCell
-        guard let model = viewModel?.clubs[indexPath.row] else { return cell }
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier, for: indexPath) as! ListPollsTableViewCell
+        guard let model = viewModel?.polls[indexPath.row] else { return cell }
         cell.bind(model)
         return cell
     }
 }
 
-extension ListClubsViewController: UISearchResultsUpdating {
+extension ListPollsViewController: UISearchResultsUpdating {
     
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text, !text.isEmpty else { return loadData() }
@@ -142,6 +142,6 @@ extension ListClubsViewController: UISearchResultsUpdating {
 
 // MARK: - Helpers
 
-private extension ListClubsViewController {
+private extension ListPollsViewController {
     
 }

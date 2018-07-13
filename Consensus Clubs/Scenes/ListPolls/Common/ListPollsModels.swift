@@ -1,5 +1,5 @@
 //
-//  ShowProductModels.swift
+//  ListPollsModels.swift
 //  Consensus Clubs
 //
 //  Created by Ger O'Sullivan on 2018-05-18.
@@ -8,17 +8,25 @@
 
 import CompanyCore
 
-enum ShowProductModels {
+enum ListPollsModels {
     
     struct FetchRequest {
-        let id: Int
+        
+    }
+    
+    struct SearchRequest {
+        let text: String
     }
     
     struct Response {
-        let product: ClubType
+        let polls: [PollType]
     }
     
     struct ViewModel {
+        let polls: [PollViewModel]
+    }
+    
+    struct PollViewModel {
         let id: Int
         let name: String
         let content: String
