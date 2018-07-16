@@ -9,7 +9,7 @@
 import UIKit
 import CompanyCore
 
-class ListPollsViewController: UIViewController {
+class ListPollsViewController: BaseListPollsViewController {
     
     // MARK: - Controls
     
@@ -54,7 +54,7 @@ class ListPollsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
-        loadData()
+//        loadData()
     }
 }
 
@@ -63,8 +63,8 @@ class ListPollsViewController: UIViewController {
 private extension ListPollsViewController {
     
     func configure() {
-        navigationItem.hidesSearchBarWhenScrolling = false
-        navigationItem.searchController = searchController
+//        navigationItem.hidesSearchBarWhenScrolling = false
+//        navigationItem.searchController = searchController
     }
     
     func loadData() {
