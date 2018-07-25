@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280B87602108925C0025F53E /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280B87592108921E0025F53E /* SwifteriOS.framework */; };
+		280B87612108925C0025F53E /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 280B87592108921E0025F53E /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		283A566020E8602100B351E0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A565F20E8602100B351E0 /* AuthViewController.swift */; };
-		284E5A6821080DCD0062EAAC /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284E5A6721080DCD0062EAAC /* SwifteriOS.framework */; };
-		284E5A6921080DCD0062EAAC /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 284E5A6721080DCD0062EAAC /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		286A7B6120FC3DEA00CC91D6 /* GarlandView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286A7B6020FC3DEA00CC91D6 /* GarlandView.framework */; };
-		286A7B6220FC3DEA00CC91D6 /* GarlandView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 286A7B6020FC3DEA00CC91D6 /* GarlandView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28596EDA21089DDC00ED79BD /* GarlandView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287615A62108961E00AA9CE4 /* GarlandView.framework */; };
+		28596EDB21089DDC00ED79BD /* GarlandView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 287615A62108961E00AA9CE4 /* GarlandView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		286A7B6C20FC40C800CC91D6 /* BaseListPollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B6720FC40C700CC91D6 /* BaseListPollsViewController.swift */; };
 		286A7B6D20FC40C800CC91D6 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286A7B6820FC40C700CC91D6 /* CollectionCell.xib */; };
 		286A7B6E20FC40C800CC91D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B6920FC40C700CC91D6 /* HeaderView.swift */; };
@@ -72,6 +72,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		280B87562108921E0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		280B87582108921E0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		280B875A2108921E0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		280B875C2108921E0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		280B875E2108921E0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		280B87622108925C0025F53E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 		8B5DB5232087E381005B8994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BAA0C182087884C005A7ED8 /* Project object */;
@@ -110,8 +152,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				8B5DB52F2087E381005B8994 /* CompanyCore.framework in Embed Frameworks */,
-				286A7B6220FC3DEA00CC91D6 /* GarlandView.framework in Embed Frameworks */,
-				284E5A6921080DCD0062EAAC /* SwifteriOS.framework in Embed Frameworks */,
+				280B87612108925C0025F53E /* SwifteriOS.framework in Embed Frameworks */,
+				28596EDB21089DDC00ED79BD /* GarlandView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,16 +161,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280B874E2108921D0025F53E /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		2839660520F840740047CD4F /* Consensus_ClubsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consensus_ClubsTests.swift; sourceTree = "<group>"; };
 		283A565F20E8602100B351E0 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
-		284E5A6721080DCD0062EAAC /* SwifteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifteriOS.framework; path = "External Frameworks/SwifteriOS.framework"; sourceTree = "<group>"; };
-		286A7B6020FC3DEA00CC91D6 /* GarlandView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GarlandView.framework; path = "External Frameworks/GarlandView.framework"; sourceTree = "<group>"; };
 		286A7B6720FC40C700CC91D6 /* BaseListPollsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseListPollsViewController.swift; sourceTree = "<group>"; };
 		286A7B6820FC40C700CC91D6 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		286A7B6920FC40C700CC91D6 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		286A7B6A20FC40C800CC91D6 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		286A7B6B20FC40C800CC91D6 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		286A7B7220FC412F00CC91D6 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		287615A62108961E00AA9CE4 /* GarlandView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GarlandView.framework; path = Carthage/Build/iOS/GarlandView.framework; sourceTree = "<group>"; };
+		287615A92108972800AA9CE4 /* GarlandView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = GarlandView.framework.dSYM; path = Carthage/Build/iOS/GarlandView.framework.dSYM; sourceTree = "<group>"; };
 		8B5DB4E22087E12D005B8994 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E62087E14D005B8994 /* ShowPollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollViewController.swift; sourceTree = "<group>"; };
@@ -207,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B5DB52E2087E381005B8994 /* CompanyCore.framework in Frameworks */,
-				286A7B6120FC3DEA00CC91D6 /* GarlandView.framework in Frameworks */,
-				284E5A6821080DCD0062EAAC /* SwifteriOS.framework in Frameworks */,
+				280B87602108925C0025F53E /* SwifteriOS.framework in Frameworks */,
+				28596EDA21089DDC00ED79BD /* GarlandView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +265,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280B874F2108921D0025F53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280B87572108921E0025F53E /* SwifterDemoiOS.app */,
+				280B87592108921E0025F53E /* SwifteriOS.framework */,
+				280B875B2108921E0025F53E /* SwifterMac.framework */,
+				280B875D2108921E0025F53E /* SwifterDemoMac.app */,
+				280B875F2108921E0025F53E /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		283A565E20E8600A00B351E0 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +303,15 @@
 				286A7B7220FC412F00CC91D6 /* UIView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		287615A52108961E00AA9CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287615A92108972800AA9CE4 /* GarlandView.framework.dSYM */,
+				287615A62108961E00AA9CE4 /* GarlandView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8B5DB4DD2087E043005B8994 /* Scenes */ = {
@@ -499,13 +563,13 @@
 		8BAA0C172087884C005A7ED8 = {
 			isa = PBXGroup;
 			children = (
-				284E5A6721080DCD0062EAAC /* SwifteriOS.framework */,
-				286A7B6020FC3DEA00CC91D6 /* GarlandView.framework */,
+				280B874E2108921D0025F53E /* Swifter.xcodeproj */,
 				8BAA0C222087884C005A7ED8 /* Consensus Clubs */,
 				8BAA0C372087884E005A7ED8 /* Consensus ClubsTests */,
 				8B5DB51A2087E381005B8994 /* Company Core iOS */,
 				8B5DB5272087E381005B8994 /* Company Core iOSTests */,
 				8BAA0C212087884C005A7ED8 /* Products */,
+				287615A52108961E00AA9CE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -606,6 +670,7 @@
 			);
 			dependencies = (
 				8B5DB52D2087E381005B8994 /* PBXTargetDependency */,
+				280B87632108925C0025F53E /* PBXTargetDependency */,
 			);
 			name = "Consensus Clubs";
 			productName = "Swift Clean Architecture";
@@ -671,6 +736,12 @@
 			mainGroup = 8BAA0C172087884C005A7ED8;
 			productRefGroup = 8BAA0C212087884C005A7ED8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 280B874F2108921D0025F53E /* Products */;
+					ProjectRef = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8BAA0C1F2087884C005A7ED8 /* Consensus Clubs */,
@@ -680,6 +751,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		280B87572108921E0025F53E /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 280B87562108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		280B87592108921E0025F53E /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 280B87582108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		280B875B2108921E0025F53E /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 280B875A2108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		280B875D2108921E0025F53E /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 280B875C2108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		280B875F2108921E0025F53E /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 280B875E2108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B5DB5172087E381005B8994 /* Resources */ = {
@@ -727,15 +836,11 @@
 			buildActionMask = 8;
 			files = (
 			);
-			inputFileListPaths = (
-				"$(SRCROOT)/External\\ Frameworks/GarlandView.framework",
-			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/GarlandView.framework",
 			);
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/GarlandView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
@@ -820,6 +925,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		280B87632108925C0025F53E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 280B87622108925C0025F53E /* PBXContainerItemProxy */;
+		};
 		8B5DB5242087E381005B8994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8B5DB5182087E381005B8994 /* Company Core iOS */;
@@ -876,7 +986,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Company Core iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roundedresources.Company-Core-iOS";
 				PRODUCT_NAME = CompanyCore;
 				SKIP_INSTALL = YES;
@@ -902,7 +1016,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Company Core iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roundedresources.Company-Core-iOS";
 				PRODUCT_NAME = CompanyCore;
 				SKIP_INSTALL = YES;
@@ -920,7 +1038,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				INFOPLIST_FILE = "Company Core iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roundedresources.Company-Core-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -936,7 +1058,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				INFOPLIST_FILE = "Company Core iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.roundedresources.Company-Core-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1068,12 +1194,13 @@
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/External\\ Frameworks",
-					"$(PROJECT_DIR)/External\\ Frameworks",
-					"$(PROJECT_DIR)/External\\ Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Consensus Clubs/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roundedresources.consensusclubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1090,12 +1217,13 @@
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/External\\ Frameworks",
-					"$(PROJECT_DIR)/External\\ Frameworks",
-					"$(PROJECT_DIR)/External\\ Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Consensus Clubs/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roundedresources.consensusclubs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1112,7 +1240,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				INFOPLIST_FILE = "Consensus ClubsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roundedresources.ConsensusClubsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1131,7 +1263,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
 				INFOPLIST_FILE = "Consensus ClubsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roundedresources.ConsensusClubsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
