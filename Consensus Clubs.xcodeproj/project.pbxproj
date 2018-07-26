@@ -10,14 +10,14 @@
 		280B87602108925C0025F53E /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280B87592108921E0025F53E /* SwifteriOS.framework */; };
 		280B87612108925C0025F53E /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 280B87592108921E0025F53E /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		283A566020E8602100B351E0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283A565F20E8602100B351E0 /* AuthViewController.swift */; };
-		28596EDA21089DDC00ED79BD /* GarlandView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287615A62108961E00AA9CE4 /* GarlandView.framework */; };
-		28596EDB21089DDC00ED79BD /* GarlandView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 287615A62108961E00AA9CE4 /* GarlandView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		286A7B6C20FC40C800CC91D6 /* BaseListPollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B6720FC40C700CC91D6 /* BaseListPollsViewController.swift */; };
 		286A7B6D20FC40C800CC91D6 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286A7B6820FC40C700CC91D6 /* CollectionCell.xib */; };
 		286A7B6E20FC40C800CC91D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B6920FC40C700CC91D6 /* HeaderView.swift */; };
 		286A7B6F20FC40C800CC91D6 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B6A20FC40C800CC91D6 /* CollectionCell.swift */; };
 		286A7B7020FC40C800CC91D6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286A7B6B20FC40C800CC91D6 /* HeaderView.xib */; };
 		286A7B7320FC412F00CC91D6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286A7B7220FC412F00CC91D6 /* UIView.swift */; };
+		28809C9F21095FB4006FB8BB /* GarlandView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28809C9D21095FA0006FB8BB /* GarlandView.framework */; };
+		28809CA021095FB4006FB8BB /* GarlandView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28809C9D21095FA0006FB8BB /* GarlandView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28CBB03120F843AA005FD459 /* Consensus_ClubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2839660520F840740047CD4F /* Consensus_ClubsTests.swift */; };
 		8B5DB4E32087E12D005B8994 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E22087E12D005B8994 /* MainViewController.swift */; };
 		8B5DB4E52087E13E005B8994 /* ListPollsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */; };
@@ -114,6 +114,20 @@
 			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
 			remoteInfo = SwifteriOS;
 		};
+		28809C9C21095FA0006FB8BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28809C9821095FA0006FB8BB /* GarlandView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E0EB0591EED8D1300DD634C;
+			remoteInfo = GarlandView;
+		};
+		28809CA121095FB4006FB8BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28809C9821095FA0006FB8BB /* GarlandView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0EB0581EED8D1300DD634C;
+			remoteInfo = GarlandView;
+		};
 		8B5DB5232087E381005B8994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BAA0C182087884C005A7ED8 /* Project object */;
@@ -153,7 +167,7 @@
 			files = (
 				8B5DB52F2087E381005B8994 /* CompanyCore.framework in Embed Frameworks */,
 				280B87612108925C0025F53E /* SwifteriOS.framework in Embed Frameworks */,
-				28596EDB21089DDC00ED79BD /* GarlandView.framework in Embed Frameworks */,
+				28809CA021095FB4006FB8BB /* GarlandView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +186,7 @@
 		286A7B7220FC412F00CC91D6 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		287615A62108961E00AA9CE4 /* GarlandView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GarlandView.framework; path = Carthage/Build/iOS/GarlandView.framework; sourceTree = "<group>"; };
 		287615A92108972800AA9CE4 /* GarlandView.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = GarlandView.framework.dSYM; path = Carthage/Build/iOS/GarlandView.framework.dSYM; sourceTree = "<group>"; };
+		28809C9821095FA0006FB8BB /* GarlandView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GarlandView.xcodeproj; path = "../ramotion/garland-view/GarlandView.xcodeproj"; sourceTree = "<group>"; };
 		8B5DB4E22087E12D005B8994 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E42087E13E005B8994 /* ListPollsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPollsViewController.swift; sourceTree = "<group>"; };
 		8B5DB4E62087E14D005B8994 /* ShowPollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPollViewController.swift; sourceTree = "<group>"; };
@@ -251,7 +266,7 @@
 			files = (
 				8B5DB52E2087E381005B8994 /* CompanyCore.framework in Frameworks */,
 				280B87602108925C0025F53E /* SwifteriOS.framework in Frameworks */,
-				28596EDA21089DDC00ED79BD /* GarlandView.framework in Frameworks */,
+				28809C9F21095FB4006FB8BB /* GarlandView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +327,14 @@
 				287615A62108961E00AA9CE4 /* GarlandView.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28809C9921095FA0006FB8BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28809C9D21095FA0006FB8BB /* GarlandView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8B5DB4DD2087E043005B8994 /* Scenes */ = {
@@ -563,6 +586,7 @@
 		8BAA0C172087884C005A7ED8 = {
 			isa = PBXGroup;
 			children = (
+				28809C9821095FA0006FB8BB /* GarlandView.xcodeproj */,
 				280B874E2108921D0025F53E /* Swifter.xcodeproj */,
 				8BAA0C222087884C005A7ED8 /* Consensus Clubs */,
 				8BAA0C372087884E005A7ED8 /* Consensus ClubsTests */,
@@ -671,6 +695,7 @@
 			dependencies = (
 				8B5DB52D2087E381005B8994 /* PBXTargetDependency */,
 				280B87632108925C0025F53E /* PBXTargetDependency */,
+				28809CA221095FB4006FB8BB /* PBXTargetDependency */,
 			);
 			name = "Consensus Clubs";
 			productName = "Swift Clean Architecture";
@@ -738,6 +763,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 28809C9921095FA0006FB8BB /* Products */;
+					ProjectRef = 28809C9821095FA0006FB8BB /* GarlandView.xcodeproj */;
+				},
+				{
 					ProductGroup = 280B874F2108921D0025F53E /* Products */;
 					ProjectRef = 280B874E2108921D0025F53E /* Swifter.xcodeproj */;
 				},
@@ -786,6 +815,13 @@
 			fileType = wrapper.cfbundle;
 			path = SwifterTests.xctest;
 			remoteRef = 280B875E2108921E0025F53E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28809C9D21095FA0006FB8BB /* GarlandView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GarlandView.framework;
+			remoteRef = 28809C9C21095FA0006FB8BB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -837,10 +873,8 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/GarlandView.framework",
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/GarlandView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
@@ -929,6 +963,11 @@
 			isa = PBXTargetDependency;
 			name = SwifteriOS;
 			targetProxy = 280B87622108925C0025F53E /* PBXContainerItemProxy */;
+		};
+		28809CA221095FB4006FB8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GarlandView;
+			targetProxy = 28809CA121095FB4006FB8BB /* PBXContainerItemProxy */;
 		};
 		8B5DB5242087E381005B8994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1122,7 +1161,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1176,7 +1215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1192,10 +1231,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Consensus Clubs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1215,10 +1251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AY59325WL;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Consensus Clubs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
