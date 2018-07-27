@@ -91,7 +91,7 @@ class AuthViewController: UIViewController, SFSafariViewControllerDelegate {
         let listPollsViewController = self.storyboard!.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
     
         self.navigationController?.pushViewController(listPollsViewController, animated: true)
-
+        self.navigationController?.isNavigationBarHidden = true
     }
 
     func alert(title: String, message: String) {
