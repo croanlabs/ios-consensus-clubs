@@ -1,5 +1,5 @@
-# ConsensusClubs
-An iOS app for the Consensus Clubs project
+# Futurities
+An iOS app for the Futurities project
 
 ##Prerequisites
 Garland-view library requires Xcode 10. Please install beta version from Apple Developer site.
